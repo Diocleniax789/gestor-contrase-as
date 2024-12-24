@@ -15,6 +15,15 @@ char * verifica (struct datos);
 void reemplaza (struct datos *, char *);
 
 int main(){
+    struct datos *todos_los_usuarios;
+    int usuarios_cargados = 0;
+    todos_los_usuarios = carga(&usuarios_cargados);
+
 
     return 0;
+}
+
+struct datos * carga(int *usuarios_cargados){
+
+
 }
