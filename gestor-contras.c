@@ -1,4 +1,8 @@
 #include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+#include <windows.h>
+#include <stdlib.h>
 
 struct datos{
     char nom_usuario[20];
